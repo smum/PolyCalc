@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242030F81B45A56000993D18 /* AreaOfSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242030F71B45A56000993D18 /* AreaOfSquare.swift */; };
+		242030FA1B45A65700993D18 /* AreaOfTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242030F91B45A65700993D18 /* AreaOfTrapezoid.swift */; };
+		242030FC1B45B85100993D18 /* AreaOfEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242030FB1B45B85100993D18 /* AreaOfEllipse.swift */; };
+		242030FE1B45BE9400993D18 /* AreaOfCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242030FD1B45BE9400993D18 /* AreaOfCircle.swift */; };
+		242031001B45D97B00993D18 /* PerimeterOfTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242030FF1B45D97B00993D18 /* PerimeterOfTriangle.swift */; };
+		242031021B45DD7200993D18 /* PerimeterOfQuads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242031011B45DD7200993D18 /* PerimeterOfQuads.swift */; };
+		242031041B45E00600993D18 /* Circumference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242031031B45E00600993D18 /* Circumference.swift */; };
+		24871D6D1B446BE60090FAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24871D6C1B446BE60090FAA9 /* AppDelegate.swift */; };
+		24871D6F1B446BE60090FAA9 /* AreaOfTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24871D6E1B446BE60090FAA9 /* AreaOfTriangle.swift */; };
+		24871D721B446BE60090FAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24871D701B446BE60090FAA9 /* Main.storyboard */; };
+		24871D741B446BE60090FAA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24871D731B446BE60090FAA9 /* Images.xcassets */; };
+		24871D771B446BE60090FAA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24871D751B446BE60090FAA9 /* LaunchScreen.xib */; };
+		24871D831B446BE60090FAA9 /* PolygonCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24871D821B446BE60090FAA9 /* PolygonCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24871D7D1B446BE60090FAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24871D5F1B446BE60090FAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24871D661B446BE60090FAA9;
+			remoteInfo = PolygonCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242030F71B45A56000993D18 /* AreaOfSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaOfSquare.swift; sourceTree = "<group>"; };
+		242030F91B45A65700993D18 /* AreaOfTrapezoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaOfTrapezoid.swift; sourceTree = "<group>"; };
+		242030FB1B45B85100993D18 /* AreaOfEllipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaOfEllipse.swift; sourceTree = "<group>"; };
+		242030FD1B45BE9400993D18 /* AreaOfCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaOfCircle.swift; sourceTree = "<group>"; };
+		242030FF1B45D97B00993D18 /* PerimeterOfTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerimeterOfTriangle.swift; sourceTree = "<group>"; };
+		242031011B45DD7200993D18 /* PerimeterOfQuads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerimeterOfQuads.swift; sourceTree = "<group>"; };
+		242031031B45E00600993D18 /* Circumference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circumference.swift; sourceTree = "<group>"; };
+		24871D671B446BE60090FAA9 /* PolygonCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolygonCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24871D6B1B446BE60090FAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24871D6C1B446BE60090FAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24871D6E1B446BE60090FAA9 /* AreaOfTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaOfTriangle.swift; sourceTree = "<group>"; };
+		24871D711B446BE60090FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24871D731B446BE60090FAA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24871D761B446BE60090FAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		24871D7C1B446BE60090FAA9 /* PolygonCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolygonCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24871D811B446BE60090FAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24871D821B446BE60090FAA9 /* PolygonCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonCalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24871D641B446BE60090FAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24871D791B446BE60090FAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24871D5E1B446BE60090FAA9 = {
+			isa = PBXGroup;
+			children = (
+				24871D691B446BE60090FAA9 /* PolygonCalculator */,
+				24871D7F1B446BE60090FAA9 /* PolygonCalculatorTests */,
+				24871D681B446BE60090FAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24871D681B446BE60090FAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24871D671B446BE60090FAA9 /* PolygonCalculator.app */,
+				24871D7C1B446BE60090FAA9 /* PolygonCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24871D691B446BE60090FAA9 /* PolygonCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				24871D6C1B446BE60090FAA9 /* AppDelegate.swift */,
+				24871D6E1B446BE60090FAA9 /* AreaOfTriangle.swift */,
+				242030F71B45A56000993D18 /* AreaOfSquare.swift */,
+				242030F91B45A65700993D18 /* AreaOfTrapezoid.swift */,
+				242030FB1B45B85100993D18 /* AreaOfEllipse.swift */,
+				242030FD1B45BE9400993D18 /* AreaOfCircle.swift */,
+				24871D701B446BE60090FAA9 /* Main.storyboard */,
+				242030FF1B45D97B00993D18 /* PerimeterOfTriangle.swift */,
+				242031011B45DD7200993D18 /* PerimeterOfQuads.swift */,
+				242031031B45E00600993D18 /* Circumference.swift */,
+				24871D731B446BE60090FAA9 /* Images.xcassets */,
+				24871D751B446BE60090FAA9 /* LaunchScreen.xib */,
+				24871D6A1B446BE60090FAA9 /* Supporting Files */,
+			);
+			path = PolygonCalculator;
+			sourceTree = "<group>";
+		};
+		24871D6A1B446BE60090FAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24871D6B1B446BE60090FAA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24871D7F1B446BE60090FAA9 /* PolygonCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				24871D821B446BE60090FAA9 /* PolygonCalculatorTests.swift */,
+				24871D801B446BE60090FAA9 /* Supporting Files */,
+			);
+			path = PolygonCalculatorTests;
+			sourceTree = "<group>";
+		};
+		24871D801B446BE60090FAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24871D811B446BE60090FAA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24871D661B446BE60090FAA9 /* PolygonCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24871D861B446BE60090FAA9 /* Build configuration list for PBXNativeTarget "PolygonCalculator" */;
+			buildPhases = (
+				24871D631B446BE60090FAA9 /* Sources */,
+				24871D641B446BE60090FAA9 /* Frameworks */,
+				24871D651B446BE60090FAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolygonCalculator;
+			productName = PolygonCalculator;
+			productReference = 24871D671B446BE60090FAA9 /* PolygonCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24871D7B1B446BE60090FAA9 /* PolygonCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24871D891B446BE60090FAA9 /* Build configuration list for PBXNativeTarget "PolygonCalculatorTests" */;
+			buildPhases = (
+				24871D781B446BE60090FAA9 /* Sources */,
+				24871D791B446BE60090FAA9 /* Frameworks */,
+				24871D7A1B446BE60090FAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24871D7E1B446BE60090FAA9 /* PBXTargetDependency */,
+			);
+			name = PolygonCalculatorTests;
+			productName = PolygonCalculatorTests;
+			productReference = 24871D7C1B446BE60090FAA9 /* PolygonCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24871D5F1B446BE60090FAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Teens;
+				TargetAttributes = {
+					24871D661B446BE60090FAA9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = G6MYUS9C93;
+					};
+					24871D7B1B446BE60090FAA9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 24871D661B446BE60090FAA9;
+					};
+				};
+			};
+			buildConfigurationList = 24871D621B446BE60090FAA9 /* Build configuration list for PBXProject "PolygonCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24871D5E1B446BE60090FAA9;
+			productRefGroup = 24871D681B446BE60090FAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24871D661B446BE60090FAA9 /* PolygonCalculator */,
+				24871D7B1B446BE60090FAA9 /* PolygonCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24871D651B446BE60090FAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871D721B446BE60090FAA9 /* Main.storyboard in Resources */,
+				24871D771B446BE60090FAA9 /* LaunchScreen.xib in Resources */,
+				24871D741B446BE60090FAA9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24871D7A1B446BE60090FAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24871D631B446BE60090FAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242030FC1B45B85100993D18 /* AreaOfEllipse.swift in Sources */,
+				242031041B45E00600993D18 /* Circumference.swift in Sources */,
+				242031021B45DD7200993D18 /* PerimeterOfQuads.swift in Sources */,
+				242030FE1B45BE9400993D18 /* AreaOfCircle.swift in Sources */,
+				242030FA1B45A65700993D18 /* AreaOfTrapezoid.swift in Sources */,
+				242031001B45D97B00993D18 /* PerimeterOfTriangle.swift in Sources */,
+				24871D6F1B446BE60090FAA9 /* AreaOfTriangle.swift in Sources */,
+				24871D6D1B446BE60090FAA9 /* AppDelegate.swift in Sources */,
+				242030F81B45A56000993D18 /* AreaOfSquare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24871D781B446BE60090FAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24871D831B446BE60090FAA9 /* PolygonCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24871D7E1B446BE60090FAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24871D661B446BE60090FAA9 /* PolygonCalculator */;
+			targetProxy = 24871D7D1B446BE60090FAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24871D701B446BE60090FAA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24871D711B446BE60090FAA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24871D751B446BE60090FAA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24871D761B446BE60090FAA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24871D841B446BE60090FAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24871D851B446BE60090FAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24871D871B446BE60090FAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PolygonCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DMA.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		24871D881B446BE60090FAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PolygonCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DMA.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		24871D8A1B446BE60090FAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PolygonCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DMA.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolygonCalculator.app/PolygonCalculator";
+			};
+			name = Debug;
+		};
+		24871D8B1B446BE60090FAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PolygonCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DMA.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolygonCalculator.app/PolygonCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24871D621B446BE60090FAA9 /* Build configuration list for PBXProject "PolygonCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24871D841B446BE60090FAA9 /* Debug */,
+				24871D851B446BE60090FAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24871D861B446BE60090FAA9 /* Build configuration list for PBXNativeTarget "PolygonCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24871D871B446BE60090FAA9 /* Debug */,
+				24871D881B446BE60090FAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24871D891B446BE60090FAA9 /* Build configuration list for PBXNativeTarget "PolygonCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24871D8A1B446BE60090FAA9 /* Debug */,
+				24871D8B1B446BE60090FAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24871D5F1B446BE60090FAA9 /* Project object */;
+}
